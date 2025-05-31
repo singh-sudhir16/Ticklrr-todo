@@ -67,6 +67,9 @@ function Login() {
                                         to={"/forgotPassword"}
                                     >Forgot Password?</Link>
                                 </div>
+                                <div className="flex justify-between items-center mb-6">
+                                    (It may take a few seconds to login the first time.)
+                                </div>
                                 <div className="text-center lg:text-left">
                                     <button
                                         type="submit"
